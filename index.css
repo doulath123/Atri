@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+}
+#navbar{
+    align-items: center;
+    color: rgb(105, 105, 105);
+    display: flex;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#navleft{
+    align-items: center;
+    color: rgb(105, 105, 105);
+    display: flex;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    column-gap: 30px;
+}
+#navleft-right,#navright{
+    color: rgb(105, 105, 105);
+    display: flex;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    column-gap: 30px;
+}
+#navright-left, #browse-menu #button-bar #button-2{
+    align-items: flex-start;
+    appearance: auto;
+    border-bottom-color: rgb(204,204,204);
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source:none ;
+    border-image-width: 1;
+    border-left-color:rgb(204,204,204) ;
+    border-right-color:rgb(204,204,204) ;
+    border-top-color:rgb(204,204,204) ;
+    border-left-style:solid ;
+    border-right-style:solid; 
+    border-top-style: solid;
+    border-left-width:0.666667px;
+    border-right-width:0.666667px; 
+    border-top-width: 0.666667px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    user-select: none;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    border-radius: 50px;
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    padding-left:25px ;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#navleft-left>img,#navleft-right>div{
+    cursor: pointer;
+}
+
+#navright-right, #browse-menu #button-bar #button-1{
+    background-color: rgb(255,118, 41);
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 11px 26px 11px 26px;
+    border-radius: 50px;
+}
+#burgers{
+    display: flex;
+}
+#burgers-left{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+   
+    padding: 100px 0px 0px 150px;
+    row-gap: 20px;
+    width: 793.333px;
+}
+#burgers-heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 500;
+}
+#burgers-heading>h6{
+    color:rgb(255,118, 41);
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+}
+#burgers-heading>h5{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+}
+#burgers-text{
+    color: rgb(117,117, 117);
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    width: 555.33px;
+    padding-right: 0px;
+}
+#burgers-buttons-bar{
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+}
+#burgers-buttons{
+    column-gap: 30px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+}
+#burgers-buttons{
+    column-gap: 30px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+}
+#burgers-buttons>#button1{
+    background-color: rgb(255,118, 41);
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 11px 26px 11px 26px;
+    border-radius: 50px;
+
+}
+#burgers-buttons>#button2{
+    background-color: white;
+    border-bottom-color: rgb(204,204,204);
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source:none ;
+    border-image-width: 1;
+    border-left-color:rgb(204,204,204) ;
+    border-right-color:rgb(204,204,204) ;
+    border-top-color:rgb(204,204,204) ;
+    border-left-style:solid ;
+    border-right-style:solid; 
+    border-top-style: solid;
+    border-left-width:0.666667px;
+    border-right-width:0.666667px; 
+    border-top-width: 0.666667px;
+    cursor: pointer;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+#burgers-right{
+    background-color: rgb(255,118, 41);
+    display: flex;
+    width: 480px;
+}
+#burgers-right #burgers-img{
+    height: 395.542px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    padding: 40px 40px 40px 40px;
+    position: relative;
+    right: 200px;
+    width: 400px;
+    border-radius: 50px;
+}
+#favorite-app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 21px;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 75px;
+    row-gap: 20px;
+}
+#favorite-app #heading{
+    display: block;
+    font-size: 21px;
+    font-weight: 700;
+}
+#favorite-app-bar{
+    column-gap: 60px;
+    display: flex;
+    font-size: 21px;
+    font-weight: 700;
+}
+#favorite-app-bar #left-img,#favorite-app-bar #right-img{
+    column-gap: 60px;
+    display: flex;
+    font-size: 21px;
+    font-weight: 700;
+}
+#favorite-app-bar #left-img #img1, #favorite-app-bar #left-img #img2{
+font-size: 21px;
+font-weight: 700;
+overflow-clip-margin: content-box;
+overflow-x: clip;
+overflow-y: clip;
+width: 200px;
+}
+#favorite-app-bar #right-img #img1
+{
+    width: 80px;
+    font-size: 21px;
+    font-weight: 700;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+}
+#favorite-app-bar #right-img #img2
+{
+    width: 122px;
+    font-size: 21px;
+    font-weight: 700;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+}
+#browse-menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 548.667px;
+    justify-content: flex-start;
+    padding: 150px 0px 100px;
+    row-gap: 40px;
+    width: 1423.33px;
+}
+#browse-menu #heading{
+    height: 32.667px;
+    width: 209.208px;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+}
+#browse-menu #continer{
+    height: 394px;
+    width: 1066px;
+    column-gap: 30px;
+    display: flex;
+}
+#browse-menu #continer #left, #browse-menu #continer #right{
+    display: flex;
+    column-gap: 30px;
+
+}
+
+#browse-menu #continer #left #left-1,#browse-menu #continer #left #left-2, #browse-menu #continer #right #right-1, #browse-menu #continer #right #right-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    padding: 40px 0px 40px;
+    row-gap: 20px;
+    width: 240px;
+    border-color: #cecece;
+    border-style: solid;
+    border-radius: 15px;
+}
+#browse-menu #continer #left #left-1 #img,#browse-menu #continer #left #left-2 #img, #browse-menu #continer #right #right-1 #img, #browse-menu #continer #right #right-2 #img{
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+}
+#browse-menu #continer #left #left-1 #heading,#browse-menu #continer #left #left-2 #heading, #browse-menu #continer #right #right-1 #heading, #browse-menu #continer #right #right-2 #heading{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+#browse-menu #continer #left #left-1 #text,#browse-menu #continer #left #left-2 #text, #browse-menu #continer #right #right-1 #text, #browse-menu #continer #right #right-2 #text{
+    color: #676767;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    width: 200px;
+    padding: 0px 10px 30px;
+}
+#browse-menu #continer #left #left-1 #explore,#browse-menu #continer #left #left-2 #explore, #browse-menu #continer #right #right-1 #explore, #browse-menu #continer #right #right-2 #explore{
+    color: rgb(255,118, 41);
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#browse-menu #button-bar{
+    display: flex;
+    height: 42px;
+    width: 318.656px;
+    column-gap: 30px;
+}
+/* About us */
+
+
+
+/* About us end */
+
+
