@@ -679,3 +679,213 @@ column-gap: 8px;
     column-gap: 30px;
 }
 /* Client page end */
+
+/* Our articles */
+.our-articles{
+    display: flex;
+    padding: 150px 100px 100px 100px;
+    background-color: #FFF9F3;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.our-articles .topbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    box-sizing: content-box;
+}
+.our-articles .topbar .heading{
+    font-weight: 700;
+    font-size: 32px;
+    display: block;
+}
+.our-articles .topbar .browse-box{
+    display: flex;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: #ffffff;
+}
+
+
+
+.our-articles .continer{
+    display: flex;
+    column-gap: 30px;
+}
+.our-articles .continer .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: #fffefe;
+    row-gap: 10px;
+    border-radius: 35px;
+}
+.our-articles .continer .left img{
+    width: 100%;
+    border-radius: 35px;
+    height: 70%;
+}
+.our-articles .continer .left .heading{
+    display: block;
+    font-weight: 700;
+    font-size: 31px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.our-articles .continer .left .date{
+display: block;
+font-weight: 500;
+font-size: 20px;
+color: #737373;
+padding: 20px 10px 0px 20px;
+}
+.our-articles .continer .left .text{
+display: block;
+font-weight: 500;
+    font-size: 20px;
+    color: #8f8f8f;
+    padding:0px 10px 30px 20px ;
+}
+.our-articles .continer .right{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.our-articles .continer .right .two-items{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.our-articles .continer .right .two-items .item{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    background-color: #fffefe;
+    row-gap: 10px;
+    border-radius: 35px;
+    padding-bottom: 20px;
+}
+.our-articles .continer .right .two-items .item img{
+    width: 100%;
+    border-radius: 35px;
+
+}
+.our-articles .continer .right .two-items .item .date{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #737373;
+    padding: 20px 10px 0px 20px;
+
+}
+.our-articles .continer .right .two-items .item .heading{
+display: block;
+font-weight: 700;
+    font-size: 20px;
+    padding: 0px 10px 0px 20px;
+}
+/* Our articles end */
+
+/* Book Table  */
+.book-table{
+    display: flex;
+}
+.book-table .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 100px 0px 100px 150px;
+    width: 50%;
+}
+.book-table .left .heading{
+display: block;
+font-weight: 700;
+    font-size: 36px;
+    align-self: auto;
+}
+.book-table .left .text{
+    display: block;
+    width: 50%;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: #727171;
+}
+.book-table .left .location-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    column-gap: 25px;
+}
+.book-table .left .location-box img{
+    width: 30px;
+    height: 30px;
+}
+.book-table .left .location-box .location{
+display: block;
+font-weight: 500;
+color: #717070;
+}
+.book-table .left .mobile-box{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    column-gap: 19px;
+}
+.book-table .left .mobile-box img{
+    width: 30px;
+    height: 30px;
+}
+.book-table .left .mobile-box .mobile{
+    display: block;
+    font-weight: 500;
+    color: #717070;
+
+}
+.book-table .left .mail-box{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    column-gap: 21px;
+}
+.book-table .left .mail-box img{
+    width: 30px;
+}
+.book-table .left .mail-box .mail{
+display: block;
+font-weight: 500;
+    color: #717070;
+}
+
+
+.book-table .right{
+    display: flex;
+    background-color: #FF7629;
+    align-items: flex-start;
+    padding: 100px 0px 100px;
+    width: 50%;
+}
+.book-table .right .form-table{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 80px 50px 30px 50px;
+    row-gap: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    right: 140px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #d9d4d4;
+}
+/* Book Table end */
