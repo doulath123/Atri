@@ -33,7 +33,7 @@ body{
     font-weight: 500;
     column-gap: 30px;
 }
-#navright-left, #browse-menu #button-bar #button-2{
+#navright-left, #browse-menu>#button-bar>#button-2, #about-us #right #button-bar #button-1{
     align-items: flex-start;
     appearance: auto;
     border-bottom-color: rgb(204,204,204);
@@ -88,7 +88,7 @@ body{
     cursor: pointer;
 }
 
-#navright-right, #browse-menu #button-bar #button-1{
+#navright-right, #browse-menu>#button-bar>#button-1, #about-us #right #button-bar #button-2{
     background-color: rgb(255,118, 41);
     border: none;
     cursor: pointer;
@@ -189,7 +189,7 @@ body{
     display: flex;
     width: 480px;
 }
-#burgers-right #burgers-img{
+#burgers-right>#burgers-img{
     height: 395.542px;
     overflow-clip-margin: content-box;
     overflow-x: clip;
@@ -210,7 +210,7 @@ body{
     padding-top: 75px;
     row-gap: 20px;
 }
-#favorite-app #heading{
+#favorite-app>#heading{
     display: block;
     font-size: 21px;
     font-weight: 700;
@@ -221,7 +221,7 @@ body{
     font-size: 21px;
     font-weight: 700;
 }
-#favorite-app-bar #left-img,#favorite-app-bar #right-img{
+#favorite-app-bar>#left-img,#favorite-app-bar>#right-img{
     column-gap: 60px;
     display: flex;
     font-size: 21px;
@@ -327,8 +327,104 @@ width: 200px;
     column-gap: 30px;
 }
 /* About us */
+#about-us{
+    display: flex;
+    background-color: #FFF9F3;
+    padding-top: 150px;
+    padding-left: 150px;
+    box-sizing: content-box;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#about-us #left{
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    width: 50%;
+    box-sizing: content-box;
+}
+#about-us #left>img{
+   border-radius: 30px;
+    width: 460px;
+}
+#about-us #left #address{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 50px 20px 50px 50px;
+    position: relative;
+    border-radius: 25px;
+    row-gap: 20px;
+    font-weight: 500;
+    top: 200px;
+    right: 300px;
+    box-sizing: border-box;
+}
+#about-us #left #address #heading{
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+}
+#about-us #left #address #content-1{
+    display: flex;
+    column-gap: 20px;
+    font-weight: 500;
+    width: 350px;
+}
+#about-us #left #address #content-2,#about-us #left #address #content-3{
+    display: flex;
+    column-gap: 20px;
+    font-weight: 500;
+    width: 300px;
+}
+#about-us>#left>#address>#content-1>img,#about-us>#left>#address>#content-2>img,#about-us>#left>#address>#content-3>img{
+    font-weight: 500;
+    overflow: clip;
+}
+#about-us #left #address #content-1 #location{
+    display: block;
+    font-weight: 500;
+    width:50%;
+    color: #8d8d8d;
+
+}
+#about-us #left #address #content-2 #mobile, #about-us #left #address #content-3 #mail{
+    display: block;
+    font-weight: 500;
+    color: #8d8d8d;
+
+}
+    
 
 
+
+#about-us #right{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-top: 100px;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 50%;
+}
+#about-us #right #heading{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+#about-us #right #text{
+    display: block;
+    font-weight: 500;
+    color: #8d8d8d;
+    font-size: 18px;
+    width:80%
+}
+#about-us #right #button-bar{
+    display: flex;
+    column-gap: 30px;
+}
 
 /* About us end */
 
