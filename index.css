@@ -86,7 +86,6 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-   
     padding: 100px 0px 0px 150px;
     row-gap: 20px;
     width: 793.333px;
@@ -243,7 +242,7 @@ width: 200px;
     justify-content: flex-start;
     padding: 150px 0px 100px;
     row-gap: 40px;
-    width: 1423.33px;
+    width: 100%;
 }
 #browse-menu #heading{
     height: 32.667px;
