@@ -4,6 +4,7 @@
 }
 body{
     display: block;
+    font-family: "DM Sans";
 }
 #navbar{
     align-items: center;
@@ -37,38 +38,17 @@ body{
 #navright-left, #browse-menu>#button-bar>#button-2, #about-us #right #button-bar #button-1, #browse-our-menu #continer #button-bar #button-2, .burger-losangeles .left .button-bar .button-1, .clients .button-bar .button-2{
     align-items: flex-start;
     appearance: auto;
-    border-bottom-color: rgb(204,204,204);
-    border-bottom-style: solid;
-    border-bottom-width: 0.666667px;
+    border: 0.666667px solid rgb(204,204,204);
     border-image-outset: 0;
     border-image-repeat: stretch;
     border-image-slice: 100%;
     border-image-source:none ;
     border-image-width: 1;
-    border-left-color:rgb(204,204,204) ;
-    border-right-color:rgb(204,204,204) ;
-    border-top-color:rgb(204,204,204) ;
-    border-left-style:solid ;
-    border-right-style:solid; 
-    border-top-style: solid;
-    border-left-width:0.666667px;
-    border-right-width:0.666667px; 
-    border-top-width: 0.666667px;
     box-sizing: border-box;
     cursor: pointer;
-    display: block;
-    font-family: "DM Sans";
     font-size: 16px;
     font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
     font-weight: 500;
-    letter-spacing: normal;
-    line-height: normal;
-    margin: 0px 0px 0px 0px;
     text-align: center;
     text-rendering: auto;
     text-shadow: none;
@@ -79,10 +59,7 @@ body{
     border-radius: 50px;
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
-    padding-left:25px ;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 25px 10px 25px;
 
 }
 #navleft-left>img,#navleft-right>div{
@@ -90,12 +67,15 @@ body{
 }
 
 #navright-right, #browse-menu>#button-bar>#button-1, #about-us #right #button-bar #button-2, #browse-our-menu #continer #button-bar #button-1 , .burger-losangeles .left .button-bar .button-2, .clients .button-bar .button-1{
-    background-color: rgb(255,118, 41);
-    border: 0.5px solid white;
-    cursor: pointer;
-    color: white;
-    padding: 11px 26px 11px 26px;
+    color: #fff;
+    background-color: #FF7629;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
     border-radius: 50px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5px solid white;
 }
 /* Buttons end */
 #burgers{
@@ -888,4 +868,183 @@ font-weight: 500;
     border-style: solid;
     border-color: #d9d4d4;
 }
+.book-table .right .form-table .two-input{
+    display: flex;
+    column-gap: 20px;
+}
+.book-table .right .form-table .two-input .input-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.book-table .right .form-table .two-input .input-box input{
+    box-sizing: border-box;
+    font-variant: tabular-nums;
+    padding: 11px 15px 11px 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid  #d9d9d9;
+    border-radius: 20px;
+}
+.book-table .right .form-table .not-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.book-table .right .form-table .not-box input{
+    box-sizing: border-box;
+    font-variant: tabular-nums;
+    padding: 11px 15px 11px 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid  #d9d9d9;
+    border-radius: 20px;
+    height: 180px;
+    align-self: auto;
+    text-align: center;
+}
+.book-table .right .form-table .button{
+    color: #fff;
+    background-color: #FF7629;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5px solid white;
+    width: 40%;
+}
 /* Book Table end */
+/* Instagram */
+.instagram{
+    display: flex;
+    background-color: #FFF9F3;
+    padding: 150px 100px 150px  100px;
+    align-items: center;
+    flex-direction: column;
+}
+.instagram .title-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.instagram .title-bar .heading{
+    font-weight: 700;
+    font-size: 32px;
+}
+.instagram .title-bar .button-box{
+    display: flex;
+    padding: 15px 30px 15px 30px;
+    border-radius: 35px;
+    background-color: #FF7629;
+}
+.instagram .title-bar .button-box .button{
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+}
+.instagram .continer{
+    display: flex;
+    column-gap: 30px;
+}
+.instagram .continer img{
+    width: 300px;
+    height: 300px;
+    border-radius: 35px;
+}
+.instagram .continer .right-imgs, .footer .right  .right-imgs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.instagram .continer .right-imgs .two-imgs, .footer .right  .right-imgs .two-imgs{
+    display: flex;
+    column-gap: 20px;
+}
+.instagram .continer .right-imgs .two-imgs img, .footer .right  .right-imgs .two-imgs img{
+    width: 145px;
+    height: 145px;
+    border-radius: 25px;
+}
+
+/* Instagram end */
+/* Footer */
+.footer{
+    display: flex;
+    padding:100px 150px 50px 150px ;
+    column-gap: 40px;
+    justify-content: space-between;
+}
+.footer .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 13px;
+    width: 40%;
+}
+.footer .left .text{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6a6868;
+}
+.footer .left .star-box{
+    display: flex;
+    column-gap: 10px;
+}
+.footer .left .star-box img{
+    width: 30px;
+    height: 30px;
+}
+.footer .mid{
+display: flex;
+}
+.footer .mid .pages{
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer .mid .utility{
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-right: 5px;
+}
+.footer .mid .pages .heading, .footer .mid .utility .heading{
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+.footer .mid .pages .text , .footer .mid .utility .text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7f7c7c;
+}
+.footer .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.footer .right .heading{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+/* Footer end */
